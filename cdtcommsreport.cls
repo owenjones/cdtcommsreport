@@ -34,6 +34,7 @@
 \RequirePackage{framed}
 \RequirePackage{csquotes}
 \RequirePackage[figure,table]{totalcount}
+\RequirePackage{enumitem}
 
 \RequirePackage{fancyhdr}
 \fancyhf{}
@@ -45,7 +46,7 @@
 \let\acronym\nomenclature
 \renewcommand{\nomname}{List of Acronyms}
 \setlength{\nomitemsep}{-0.8\parsep}
-\setlength{\nomlabelwidth}{2cm}
+\setlength{\nomlabelwidth}{3cm}
 \makenomenclature
 
 \RequirePackage[en-GB]{datetime2}
